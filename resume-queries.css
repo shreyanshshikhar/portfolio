@@ -122,9 +122,8 @@
         box-shadow: 2px 2px 15px #7996f4;
         background-color: cyan;
     }
-    * {
-        zoom: 100vw;
-        position: sticky;
+     :root {
+        --padding-inline-section: 10px;
     }
 }
 
