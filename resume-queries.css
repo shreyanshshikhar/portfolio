@@ -123,7 +123,7 @@
         background-color: cyan;
     }
     * {
-        zoom: 100%;
+        zoom: 100vw;
         position: sticky;
     }
 }
