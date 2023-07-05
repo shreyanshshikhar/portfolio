@@ -6,6 +6,8 @@
         position: relative;
         z-index: 200;
         padding-right: 60px;
+                margin-top: 20px;
+
     }
     .main-nav {
         display: none;
@@ -83,6 +85,9 @@
     .inner,
     .container {
         border-radius: 30px;
+                border-radius: 30px;
+        padding: 25px;
+        margin: 2px;
     }
     .image img {
         max-width: 380px;
