@@ -84,9 +84,8 @@
     .container-about,
     .inner,
     .container {
-        border-radius: 30px;
                 border-radius: 30px;
-        padding: 25px;
+        padding: 0;
         margin: 2px;
     }
     .image img {
