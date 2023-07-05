@@ -1,3 +1,23 @@
+@media only screen and (max-width: 767px) {
+    .nav-toggle {
+        display: block;
+        width: 40px;
+        height: 10px;
+        position: relative;
+        z-index: 200;
+        padding-right: 60px;
+    }
+    .main-nav {
+        display: none;
+    }
+}
+@media screen and (width>=479px) {
+    .box .primary-button {
+        width: 40%;
+    }
+}
+
+
 @media only screen and (max-width: 479px) {
     .line {
         line-height: 35px;
@@ -18,15 +38,6 @@
     .logo {
         margin-left: 0;
         margin-top: 0;
-    }
-    .nav-toggle {
-        display: block;
-        width: 20px;
-        height: 2px;
-        position: relative;
-    }
-    .main-nav {
-        display: none;
     }
     /* Home Section */
     .home {
@@ -122,13 +133,9 @@
         box-shadow: 2px 2px 15px #7996f4;
         background-color: cyan;
     }
-     :root {
-        --padding-inline-section: 10px;
+    * {
+        zoom: 100%;
+        position: sticky;
     }
 }
 
-@media screen and (width>=479px) {
-    .box .primary-button {
-        width: 40%;
-    }
-}
