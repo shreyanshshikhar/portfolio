@@ -36,6 +36,10 @@ p:hover {
 
 /*logo part of header section*/
 
+aside {
+    display: none;
+}
+
 .logo {
     font-weight: 600;
     color: rgb(102, 116, 204);
@@ -50,6 +54,10 @@ p:hover {
     margin-top: -80px;
     margin-left: 1px;
     animation: up-down 0.8s ease-out infinite alternate;
+}
+
+.responsive-nav {
+    display: none;
 }
 
 .logo:nth-child(2) {
@@ -142,7 +150,7 @@ p:hover {
 .home {
     display: flex;
     align-content: center;
-    height: 90vh;
+    height: 70vh;
     padding: 200px;
     justify-content: space-between;
 }
@@ -258,6 +266,7 @@ p:hover {
 }
 
 .image img {
+    display: block;
     max-width: 380px;
     object-fit: contain;
     transform: scale(2, 2) translateX(-10px);
