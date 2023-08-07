@@ -1,24 +1,53 @@
-@media only screen and (max-width: 767px) {
-    .nav-toggle {
-        display: block;
-        width: 40px;
-        height: 10px;
-        position: relative;
-        z-index: 200;
-        padding-right: 60px;
-                margin-top: 40px;
-
-    }
-    .main-nav {
-        display: none;
-    }
-}
 @media screen and (width>=479px) {
     .box .primary-button {
         width: 40%;
     }
 }
 
+@media only screen and (max-width: 767px) {
+    /* .nav-toggle {
+        display: block;
+        width: 40px;
+        height: 10px;
+        position: relative;
+        z-index: 200;
+        padding-right: 60px;
+        margin-block: 40px;
+    }
+    .main-nav {
+        display: none;
+    }
+    .responsive-nav:active {
+        display: block;
+        margin-right: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }*/
+    .main-nav {
+        display: none;
+    }
+    .nav-links {
+        display: block;
+        text-align: right;
+    }
+    .responsive-nav {
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    }
+    .responsive-nav li {
+        margin-bottom: 10px;
+        margin-right: 20px;
+        list-style-type: none;
+    }
+    .nav-links a {
+        padding: 14px 20px;
+        display: block;
+        text-decoration: none;
+    }
+    .nav-links a:hover {
+        color: greenyellow;
+    }
+}
 
 @media only screen and (max-width: 479px) {
     .line {
@@ -44,7 +73,7 @@
     /* Home Section */
     .home {
         flex-direction: column;
-        padding: 100px 20px;
+        padding: 70px 2px;
     }
     .home-content {
         flex-direction: column-reverse;
@@ -84,7 +113,7 @@
     .container-about,
     .inner,
     .container {
-                border-radius: 30px;
+        border-radius: 30px;
         padding: 25px;
         margin: 2px;
     }
@@ -136,10 +165,7 @@
     .button-box a:hover {
         box-shadow: 2px 2px 15px #7996f4;
     }
-        .nav-toggle {
-                            margin-top: 80px;
-
-        }
-   
+    .nav-toggle {
+        margin-top: 80px;
+    }
 }
-
