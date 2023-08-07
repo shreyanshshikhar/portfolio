@@ -5,25 +5,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-    /* .nav-toggle {
-        display: block;
-        width: 40px;
-        height: 10px;
-        position: relative;
-        z-index: 200;
-        padding-right: 60px;
-        margin-block: 40px;
-    }
-    .main-nav {
-        display: none;
-    }
-    .responsive-nav:active {
-        display: block;
-        margin-right: 20px;
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
-    }*/
+  
     .main-nav {
         display: none;
     }
